@@ -1,12 +1,12 @@
 {
   "canisters": {
-    "message_board": {
+    "dfinity_project": {
       "type": "custom",
         "main": "src/index.ts",
         "candid": "src/index.did",
         "candid_gen": "http",
-        "build": "npx azle message_board",
-        "wasm": ".azle/message_board/message_board.wasm",
+        "build": "npx azle dfinity_project",
+        "wasm": ".azle/dfinity_project/dfinity_project.wasm",
         "gzip": true,
         "metadata": [
           {
