@@ -92,3 +92,20 @@ dfx stop
     ```bash
     curl -X DELETE http://canister_id.localhost:8000/messages/message_id
     ```
+
+## Common issues
+
+This is a list of issues you may encounter and how to solve them. I'll update it as I receive more issues.
+
+### Issue 1.0:
+
+error while loading shared libraries: libunwind.so.8: cannot open shared object file: No such file or directory
+
+#### Solution:
+
+Install the libunwind8 library. You may use this terminal command if you're using Ubuntu/Debian based systems:
+
+```bash
+sudo apt-get update
+sudo apt-get install libunwind8
+```
